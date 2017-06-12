@@ -1,6 +1,6 @@
-# Material Toggl
+# Material Time Logger
 
-> A modern Toggl desktop client
+> A modern time tracker
 
 #### Build Setup
 
