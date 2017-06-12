@@ -5,7 +5,10 @@
 
 <script>
   export default {
-    name: 'NotFoundPage'
+    name: 'NotFoundPage',
+    metaInfo: {
+      title: '404!'
+    }
   }
 </script>
 

@@ -4,7 +4,10 @@
 
 <script>
   export default {
-    name: 'HomePage'
+    name: 'HomePage',
+    metaInfo: {
+      title: 'Timer'
+    }
   }
 </script>
 
