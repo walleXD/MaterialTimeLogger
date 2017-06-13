@@ -1,12 +1,19 @@
 <template lang="pug">
-  .home.page home page
+  .home.page
+    timer-container
 </template>
 
 <script>
+  import { TimerContainer } from '../containers'
+
   export default {
+    components: {TimerContainer},
     name: 'HomePage',
     metaInfo: {
       title: 'Timer'
+    },
+    props: {
+      TimerContainer
     }
   }
 </script>
